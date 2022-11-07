@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kisib" msprop:Generator_UserTableName="kisib" msprop:Generator_RowDeletedName="kisibRowDeleted" msprop:Generator_TableClassName="kisibDataTable" msprop:Generator_RowChangedName="kisibRowChanged" msprop:Generator_RowClassName="kisibRow" msprop:Generator_RowChangingName="kisibRowChanging" msprop:Generator_RowEvArgName="kisibRowChangeEvent" msprop:Generator_RowEvHandlerName="kisibRowChangeEventHandler" msprop:Generator_TablePropName="kisib" msprop:Generator_TableVarName="tablekisib" msprop:Generator_RowDeletingName="kisibRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tc_Kimlik" msprop:Generator_UserColumnName="Tc_Kimlik" msprop:Generator_ColumnPropNameInRow="Tc_Kimlik" msprop:Generator_ColumnVarNameInTable="columnTc_Kimlik" msprop:Generator_ColumnPropNameInTable="Tc_KimlikColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Adı" msprop:Generator_UserColumnName="Adı" msprop:Generator_ColumnPropNameInRow="Adı" msprop:Generator_ColumnVarNameInTable="columnAdı" msprop:Generator_ColumnPropNameInTable="AdıColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Soyadı" msprop:Generator_UserColumnName="Soyadı" msprop:Generator_ColumnPropNameInRow="Soyadı" msprop:Generator_ColumnVarNameInTable="columnSoyadı" msprop:Generator_ColumnPropNameInTable="SoyadıColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Eğitim_Düzeyi" msprop:Generator_UserColumnName="Eğitim_Düzeyi" msprop:Generator_ColumnPropNameInRow="Eğitim_Düzeyi" msprop:Generator_ColumnVarNameInTable="columnEğitim_Düzeyi" msprop:Generator_ColumnPropNameInTable="Eğitim_DüzeyiColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Askerlik_x0020_Yapıldı_mı_x003F_" msprop:Generator_UserColumnName="Askerlik Yapıldı_mı?" msprop:Generator_ColumnPropNameInRow="_Askerlik_Yapıldı_mı_" msprop:Generator_ColumnVarNameInTable="_columnAskerlik_Yapıldı_mı_" msprop:Generator_ColumnPropNameInTable="_Askerlik_Yapıldı_mı_Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
